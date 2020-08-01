@@ -1,0 +1,85 @@
+.bg {
+    background-image: url("../../assets/images/banner.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 494px;
+}
+
+.text-1 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 130%;
+    color: #ffffff;
+
+    margin-top: 80px;
+    margin-bottom: 16px;
+}
+
+.text-2 {
+    font-size: 16px;
+    line-height: 150%;
+    color: #ffffff;
+
+    margin-top: 0;
+    margin-bottom: 43px;
+}
+
+.text-3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 130%;
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.price-box {
+    margin-top: 152px;
+    margin-left: -35px;
+
+    .text-4 {
+        font-size: 18px;
+        line-height: 130%;
+        color: #ffffff;
+        text-decoration: line-through;
+    
+        margin-bottom: 2px;
+    }
+    
+    .text-5 {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 130%;
+        color: #ffffff;
+    
+        margin-top: 0;
+        margin-bottom: 4px;
+    }
+    
+    .text-6 {
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 130%;
+        color: #ffffff;
+    
+        margin-top: 0;
+        margin-left: 4px;
+        margin-bottom: 4px;
+    }
+    
+    .text-7 {
+        font-size: 14px;
+        line-height: 130%;
+        color: #ffffff;
+    }
+}
+
+.icon-list {
+    margin-top: 122px;
+    margin-left: 26px;
+
+    .mb-16 {
+        margin-bottom: 16px;
+    }
+}
