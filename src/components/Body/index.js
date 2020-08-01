@@ -11,20 +11,20 @@ function Body() {
     return (
         <div className="container">
             <div className="flex evenly align-center" style={{ height: "242px", width: "1216px", marginTop: "65px" }}>
-                <div style={{ marginRight: "32px" }} data-aos="fade-up" data-aos-easing="linear" data-aos-duration={fadeDuration}>
+                <div style={{ marginRight: "32px" }} data-aos="fade-up" data-aos-easing="linear" data-aos-duration={fadeDuration} data-aos-anchor-placement="top-bottom">
                     <span className="text-como">Como</span>
                     <br />
                     <span className="text-aproveitar">aproveitar ?</span>
                 </div>
-                <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration={fadeDuration}>
+                <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration={fadeDuration} data-aos-anchor-placement="top-bottom">
                     <Card textNormal="Compre e pague sua" textBold="SuperGet" icon={Smartphone} />
                 </div>
-                <img data-aos="fade-right" data-aos-easing="linear" data-aos-duration={fadeDuration} src={Arrow}></img>
-                <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration={fadeDuration}>
+                <img data-aos="fade-up" data-aos-easing="linear" data-aos-duration={fadeDuration} data-aos-anchor-placement="top-bottom" src={Arrow}></img>
+                <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration={fadeDuration} data-aos-anchor-placement="top-bottom">
                     <Card textNormal="Faça seu cadastro no" textBold="site da Getnet" icon={Check} />
                 </div>
-                <img data-aos="fade-right" data-aos-easing="linear" data-aos-duration={fadeDuration} src={Arrow}></img>
-                <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration={fadeDuration}>
+                <img data-aos="fade-up" data-aos-easing="linear" data-aos-duration={fadeDuration} data-aos-anchor-placement="top-bottom" src={Arrow}></img>
+                <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration={fadeDuration} data-aos-anchor-placement="top-bottom">
                     <Card textNormal="Ative sua maquininha e " textBold="comece a vender" icon={Badge} />
                 </div>
             </div>
